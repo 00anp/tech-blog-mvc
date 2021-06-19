@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
+    "devstart": "nodemon server.js",
     "seed": "node seeds/seed.js"
   },
   "keywords": [],
@@ -21,6 +22,15 @@
   "devDependencies": {
     "eslint": "^7.12.1",
     "eslint-config-prettier": "^6.15.0",
+    "nodemon": "^2.0.7",
     "prettier": "^2.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/00anp/tech-blog-mvc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/00anp/tech-blog-mvc/issues"
+  },
+  "homepage": "https://github.com/00anp/tech-blog-mvc#readme"
 }

@@ -1,0 +1,8 @@
+<section class="container">
+  <h3 class="card-title">{{post.name}}</h3>
+  <section class="flex-row justify-center">
+    {{#each post.articles as |article|}}
+    {{> article.description}}
+    {{/each}}
+  </section>
+</section>
